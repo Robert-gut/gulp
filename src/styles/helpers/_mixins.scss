@@ -1,3 +1,12 @@
 @mixin border {
     color :red
 }
+@mixin font($size:15px,$font:$p-font,$color:white) {
+
+    font-size: $size;
+
+    font-family: $font;
+
+    color: $color;
+
+}
